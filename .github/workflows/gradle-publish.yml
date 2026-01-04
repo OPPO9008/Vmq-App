@@ -30,13 +30,12 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
-    - name: Setup Gradle
+    - name: Setup Gradle 8.10
       uses: gradle/actions/setup-gradle@v5
       with:
-       gradle-version: '8.10'
-
-    - name: Build with Gradle
-      run: gradlew build
+        gradle-version: '8.10' # Quotes required to prevent YAML converting to number
+    - name: Build with Gradle 8.10
+      run: gradle build
 
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
