@@ -3,8 +3,8 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
 	android:orientation="vertical"
 	tools:context="com.shinian.pay">
 
@@ -14,20 +14,36 @@
 		android:id="@+id/txt_host"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:textIsSelectable="true"
 		android:baselineAligned="false"
 		android:text="@string/url"
 		android:textColor="#FF000000"
-		android:textColorHighlight="#FF000000"/>
+		android:textSize="20sp"
+		android:textStyle="bold|italic"/>
 
 	<TextView
 		android:paddingBottom="20dp"
 		android:id="@+id/txt_key"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:textIsSelectable="true"
 		android:text="@string/key"
 		android:layout_marginTop="20dp"
 		android:textColor="#FF000000"
-		android:textColorHighlight="#FF000000"/>
+		android:textStyle="bold|italic"
+		android:textSize="20sp"/>
+
+	<Button
+		android:id="@+id/btn_sm"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:onClick="startQrCode"
+		android:text="@string/sm"
+		android:layout_marginTop="30dp"
+		android:background="#FF49DEFF"
+		android:singleLine="true"
+		android:textStyle="italic"/>
 
 	<Button
 		android:id="@+id/btn_input"
@@ -66,32 +82,72 @@
 		android:singleLine="true"
 		android:textStyle="italic"/>
 
-	<Button
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/admin_url"
-		android:layout_marginTop="30dp"
-		android:textSize="15sp"
-		android:background="#FFC7F1BE"
-		android:textColor="#FF000000"
-		android:textStyle="bold|italic"
-		android:onClick="admin_url"/>
-
 	<LinearLayout
 		android:orientation="vertical"
-		android:layout_width="match_parent"
-		android:layout_height="63dp"
-		android:layout_marginTop="350dp"
-		android:gravity="center">
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
 
-		<TextView
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ht_state"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_marginTop="20dp"
+				android:onClick="Logs"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#FFFF0000"
+				android:textStyle="bold|italic"
+				android:id="@+id/sj_dl"
+				android:text="@string/dl"
+				android:layout_marginLeft="210dp"
+				android:onClick="dl"
+				style="@style/AppTheme"
+				android:layout_marginTop="9dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="280dp"
+			android:orientation="vertical"
+			android:id="@+id/logs_linear_layout">
+
+			<TextView
+				android:id="@+id/state_logs"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textIsSelectable="true"
+				android:background="#4D4C4C"
+				android:textColor="#07DD0C"
+				android:text=""/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/bq"
-			android:textAppearance="?android:attr/textAppearanceSmall"
-			android:gravity="center"
-			android:onClick="author"
-			android:textColor="#FFFF0000"/>
+			android:layout_marginTop="30dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/bq"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center"
+				android:onClick="author"
+				android:textColor="#FFFF0000"/>
+
+		</LinearLayout>
 
 	</LinearLayout>
 

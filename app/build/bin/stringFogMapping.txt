@@ -1,0 +1,820 @@
+stringfog key : UTF-8
+stringfog impl: com.github.megatronking.stringfog.xor.StringFogImpl
+
+[com.google.zxing.camera.AutoFocusCallback]
+Got auto-focus callback, but no handler for it -> EjsyDVkgICkAXjo3M14YNjUqQVo0Ny0BGDchMg1WOnQuTFYxOCNfGDM7NA1RIQ==
+com.google.zxing.camera.AutoFocusCallback -> NjsrA186OyFBXXsuPkRWMnolTFUwJicDeSAgKWtXNiE1blk5OCRMWz4=
+
+[com.google.zxing.camera.CameraConfigurationManager]
+preview-format -> JSYjW1EwI2tLVyc5J1k=
+Default preview format:  -> ETEgTE05IGZdSjAiL0hPdTIpX1U0IHwN
+window -> Ij0oSVci
+Screen resolution:  -> Bjc0SF07dDRISzo4M1lROjp8DQ==
+Camera resolution:  -> FjUrSEo0dDRISzo4M1lROjp8DQ==
+Setting preview size:  -> BjEyWVE7M2ZdSjAiL0hPdScvV11vdA==
+preview-size-values -> JSYjW1EwI2teUS8xa1tZOSEjXg==
+preview-size-value -> JSYjW1EwI2teUS8xa1tZOSEj
+preview-size-values parameter:  -> JSYjW1EwI2teUS8xa1tZOSEjXhglNTRMVTAgI18CdQ==
+Bad preview-size:  -> FzUiDUgnMTBEXSJ5NURCMG5m
+Bad preview-size:  -> FzUiDUgnMTBEXSJ5NURCMG5m
+Behold II -> FzEuQlQxdA9k
+flash-value -> MzgnXlB4IidBTTA=
+flash-value -> MzgnXlB4IidBTTA=
+flash-mode -> MzgnXlB4OSlJXQ==
+off -> OjIg
+zoom-supported -> LzspQBUmITZdVycgI0k=
+max-zoom -> ODU+AEI6Oys=
+Bad max-zoom:  -> FzUiDVU0LGtXVzo5fA0=
+taking-picture-zoom-max -> ITUtRFYyeTZEWyEhNEgVLzspQBU4NT4=
+Bad taking-picture-zoom-max:  -> FzUiDUw0Py9DX3gkL05MICYjAEI6OysAVTQsfA0=
+mot-zoom-values -> ODsyAEI6OysATjQ4M0hL
+mot-zoom-step -> ODsyAEI6OysASyExNg==
+zoom -> LzspQA==
+taking-picture-zoom -> ITUtRFYyeTZEWyEhNEgVLzspQA==
+com.google.zxing.camera.CameraConfigurationManager -> NjsrA186OyFBXXsuPkRWMnolTFUwJicDezQ5I19ZFjsoS1EyITRMTDw7KGBZOzUhSEo=
+, -> eQ==
+
+[com.google.zxing.camera.CameraManager]
+yuv420p -> LCEwGQplJA==
+Unsupported picture format:  -> ADo1WEglOzRZXTF0NkRbISE0SBgzOzRAWSFuZg==
+torch -> ITs0TlA=
+torch -> ITs0TlA=
+off -> OjIg
+off -> OjIg
+com.google.zxing.camera.CameraManager -> NjsrA186OyFBXXsuPkRWMnolTFUwJicDezQ5I19ZGDUoTF8wJg==
+
+[com.google.zxing.camera.PlanarYUVLuminanceSource]
+Crop rectangle does not fit within image data. -> FiYpXRgnMSVZWTszKkgYMTsjXhg7OzINXjwgZlpRITwvQxg8OSdKXXUwJ1lZew==
+Requested row is outside the image:  -> BzE3WF0mICNJGCc7MQ1RJnQpWEwmPSJIGCE8Iw1RODUhSAJ1
+
+[com.google.zxing.camera.PreviewCallback]
+Got preview callback, but no handler for it -> EjsyDUgnMTBEXSJ0JUxUOTYnTlN5dCRYTHU6KQ1QNDoiQV0ndCBCSnU9Mg==
+com.google.zxing.camera.PreviewCallback -> NjsrA186OyFBXXsuPkRWMnolTFUwJicDaCcxMERdIhcnQVQ3NSVG
+
+[com.google.zxing.camera.FlashlightManager]
+android.os.ServiceManager -> NDoiX1c8MGhCS3sHI19OPDcjYFk7NSFISg==
+getService -> MjEyfl0nIi9OXQ==
+java.lang.String -> PzUwTBY5NShKFgYgNERWMg==
+hardware -> PTU0SU80JiM=
+android.os.IHardwareService$Stub -> NDoiX1c8MGhCS3sdDkxKMSMnX10GMTRbUTYxYn5MIDY=
+asInterface -> NCcPQ0wwJiBMWzA=
+android.os.IBinder -> NDoiX1c8MGhCS3sdBERWMTE0
+setFlashlightEnabled -> JjEya1Q0Jy5BUTI8MmhWNDYqSFw=
+Unexpected error while finding class  -> ADojVUgwNzJIXHUxNF9XJ3QxRVE5MWZLUTswL0NfdTcqTEsmdA==
+Unexpected error while finding method  -> ADojVUgwNzJIXHUxNF9XJ3QxRVE5MWZLUTswL0NfdTkjWVA6MGY=
+Unexpected error while invoking  -> ADojVUgwNzJIXHUxNF9XJ3QxRVE5MWZEViM7LURWMnQ=
+Unexpected error while invoking  -> ADojVUgwNzJIXHUxNF9XJ3QxRVE5MWZEViM7LURWMnQ=
+Unexpected error while invoking  -> ADojVUgwNzJIXHUxNF9XJ3QxRVE5MWZEViM7LURWMnQ=
+com.google.zxing.camera.FlashlightManager -> NjsrA186OyFBXXsuPkRWMnolTFUwJicDfjk1NUVUPDMuWXU0OidKXSc=
+This device does supports control of a flashlight -> ATwvXhgxMTBEWzB0IkJdJnQ1WEglOzRZS3U3KUNMJzsqDVczdCcNXjk1NUVUPDMuWQ==
+This device does not support control of a flashlight -> ATwvXhgxMTBEWzB0IkJdJnQoQkx1JzNdSDomMg1bOjoyX1c5dClLGDR0IEFZJjwqRF89IA==
+
+[com.google.zxing.decoding.CaptureActivityHandler]
+Got restart preview message -> EjsyDUowJzJMSiF0Nl9dIz0jWhg4MTVeWTIx
+Got decode succeeded message -> EjsyDVwwNylJXXUnM05bMDEiSFx1OSNeSzQzIw==
+barcode_bitmap -> NzU0TlcxMRlPUSE5J10=
+Got return scan result message -> EjsyDUowIDNfVnUnJUxWdSYjXk05IGZAXSYnJ0pd
+Got product query message -> EjsyDUgnOyJYWyF0N1hdJy1mQF0mJydKXQ==
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+com.google.zxing.decoding.CaptureActivityHandler -> NjsrA186OyFBXXsuPkRWMnoiSFs6MC9DX3sXJ11MICYjbFshPTBETCwcJ0NcOTE0
+
+[com.google.zxing.decoding.CaptureActivityHandler$State]
+PREVIEW -> BQYDe3EQAw==
+SUCCESS -> BgEFbn0GBw==
+DONE -> ERsIaA==
+
+[com.google.zxing.decoding.DecodeFormatManager]
+SCAN_FORMATS -> BhcHY2cTGxRgeQEH
+SCAN_MODE -> BhcHY2cYGwJo
+SCAN_FORMATS -> BhcHY2cTGxRgeQEH
+SCAN_MODE -> BhcHY2cYGwJo
+, -> eQ==
+
+[com.google.zxing.decoding.Intents$Encode]
+com.google.zxing.client.android.ENCODE -> NjsrA186OyFBXXsuPkRWMnolQVEwOjIDWTswNEJRMXoDY3saEAM=
+ENCODE_DATA -> EBoFYnwQCwJsbBQ=
+ENCODE_TYPE -> EBoFYnwQCxJ0aBA=
+ENCODE_FORMAT -> EBoFYnwQCwBiahgVEg==
+
+[com.google.zxing.decoding.Intents$Scan]
+com.google.zxing.client.android.SCAN -> NjsrA186OyFBXXsuPkRWMnolQVEwOjIDWTswNEJRMXoVbnkb
+SCAN_MODE -> BhcHY2cYGwJo
+SCAN_FORMATS -> BhcHY2cTGxRgeQEH
+CHARACTER_SET -> FhwHf3kWAAN/ZwYREg==
+PRODUCT_MODE -> BQYJaW0WABlgdxER
+ONE_D_MODE -> GhoDcnwKGQlpfQ==
+QR_CODE_MODE -> BAYZbncRERlgdxER
+DATA_MATRIX_MODE -> ERUSbGcYFRJ/cQ0LC2J8EA==
+SCAN_RESULT -> BhcHY2cHERV4dAE=
+SCAN_RESULT_FORMAT -> BhcHY2cHERV4dAELAGJqGBUS
+SAVE_HISTORY -> BhUQaGcdHRV5dwcN
+
+[com.google.zxing.decoding.Intents$SearchBookContents]
+com.google.zxing.client.android.SEARCH_BOOK_CONTENTS -> NjsrA186OyFBXXsuPkRWMnolQVEwOjIDWTswNEJRMXoVaHkHFw5yehobDXJ7GhoSaHYBBw==
+ISBN -> HAcEYw==
+QUERY -> BAEDf2E=
+
+[com.google.zxing.decoding.Intents$Share]
+com.google.zxing.client.android.SHARE -> NjsrA186OyFBXXsuPkRWMnolQVEwOjIDWTswNEJRMXoVZXkHEQ==
+
+[com.google.zxing.decoding.Intents$WifiConnect]
+com.google.zxing.client.android.WIFI_CONNECT -> NjsrA186OyFBXXsuPkRWMnolQVEwOjIDWTswNEJRMXoRZH4cCwVidhsRBXk=
+SSID -> BgcPaQ==
+TYPE -> AQ0WaA==
+PASSWORD -> BRUVfm8aBgI=
+
+[com.google.zxing.decoding.RGBLuminanceSource]
+Requested row is outside the image:  -> BzE3WF0mICNJGCc7MQ1RJnQpWEwmPSJIGCE8Iw1RODUhSAJ1
+Couldn't open  -> FjszQVw7czINVyUxKA0=
+
+[com.google.zxing.decoding.DecodeHandler]
+Found barcode ( -> EzszQ1x1NidfWzowIw0Q
+ ms):
+ -> dTk1BAJf
+barcode_bitmap -> NzU0TlcxMRlPUSE5J10=
+com.google.zxing.decoding.DecodeHandler -> NjsrA186OyFBXXsuPkRWMnoiSFs6MC9DX3sQI05XMTEOTFYxOCNf
+
+[com.google.zxing.decoding.DecodeThread]
+barcode_bitmap -> NzU0TlcxMRlPUSE5J10=
+
+[com.google.zxing.encoding.EncodingHandler]
+utf-8 -> ICAgAAA=
+utf-8 -> ICAgAAA=
+
+[com.google.zxing.util.BitmapUtil]
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to open content:  -> ADonT1QwdDJCGDokI0MYNjsoWV07IHwN
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to open content:  -> ADonT1QwdDJCGDokI0MYNjsoWV07IHwN
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+
+[com.google.zxing.util.Constant]
+qr_scan_result -> JCYZXls0OhlfXSYhKlk=
+
+[com.google.zxing.util.QrCodeGenerator]
+utf-8 -> ICAgAAA=
+
+[com.google.zxing.view.ViewfinderView]
+20 -> Z2Q=
+
+[com.google.zxing.activity.CaptureActivity]
+正在扫描... -> s/nlyKT9ss+G3trbaAMW
+UTF8 -> AAAAFQ==
+audio -> NCEiRFc=
+qr_scan_result -> JCYZXls0OhlfXSYhKlk=
+vibrator -> Iz0kX1khOzQ=
+
+[com.google.zxing.activity.CaptureActivity$100000001]
+android.intent.action.GET_CONTENT -> NDoiX1c8MGhEViExKFkWNDcyRFc7egFobAoXCWNsEBoS
+image/* -> PDknSl16fg==
+
+[com.google.zxing.activity.CaptureActivity$100000002]
+qr_scan_result -> JCYZXls0OhlfXSYhKlk=
+
+[com.shinian.pay.MainActivity]
+com.shinian.pay.ForeService -> NjsrA0s9PShEWTt6NkxBexIpX10GMTRbUTYx
+0F:85:43:C2:2E:8E:58:1B:96:88:C6:7C:1E:97:1E:0A:1C:55:D2:5F -> ZRJ8FQ1vYHUXe2dudGgCbRF8GABvZQQXAWNufhUCFmJ8GntvZQMXAWJud2gCZRV8HHtvYXMXfGduc2s=
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+日志：null -> s8PjyIfCu/q3ViA4Kg==
+com.eg.android.AlipayGphone -> NjsrA10yeidDXCc7L0kWFDgvXVksEzZFVzsx
+提示：无法检测到支付宝包名！
+可能无法正常监听 -> s9vWypzvu/q33sL0oJ6ts/fGy43esc6d3sH7opagsPrbyLTQsdag1+nVTMi3+rzFkN7C9KCerbP55ciA7bPdvN3F+A==
+com.tencent.mm -> NjsrA0wwOiVIViF6K0A=
+提示：无法检测到微信包名！
+可能无法正常监听 -> s9vWypzvu/q33sL0oJ6ts/fGy43esc6d3ev6opKZsNjDyKjYu/qsMrDb6cW76LLRjd7mwaCAm7Ds/sqjxLHWgQ==
+state_switch -> JiAnWV0KJzFETDY8
+state_switch -> JiAnWV0KJzFETDY8
+no -> Ozs=
+当前处于屏幕常亮模式 -> sOnVyLHYseKp3O/ao5y3sO3TyIDtsPyD3v31o5G3
+
+当前界面亮度值： -> X7H7vt3c2aG4tLzJ5MmC+7H8i93V6KmRog==
+温馨提示： -> s+zvxJ79ssm93/HuqZGi
+当前你未授权收款插件读取通知栏权限，请前往授权后再继续操作 -> sOnVyLHYsPuN3sn+oKOws8nFy6zjsuqT3trGopaOvfv9yLfDvca338rxoI23s8nFxKHFu/qh0Prjo6S1sOrGy7bdstuu3cXao6u1su/hyoP4stWg3OjI
+前往授权 -> sN3LyIbVssil3sjX
+暂不授权 -> s87EyYDYssil3sjX
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+ 通知地址： -> db3Gt9/K8aOxiLDJxsKEzw==
+ 通讯密钥： -> db3Gt9D7+6OCvrzG48KEzw==
+警告： -> vfngyKnfu/q3
+当前您使用的是非官方正版软件！请于官方地址下载正版软件使用 -> sOnVyLHYssSF3OjrobmQss7Cy6D6vduz3fvMoLuBs/nlyrHdvPuC3O7iqZG5vfvxyYLbsei13sPto7GIsMnGyYDevPuQ3vj3oaSwvenpyYPjsPuS38H8
+前往下载 -> sN3LyIbVsP6m0Ojp
+警告： -> vfngyKnfu/q3
+当前您使用的是非官方正版软件！请于官方地址下载正版软件使用 -> sOnVyLHYssSF3OjrobmQss7Cy6D6vduz3fvMoLuBs/nlyrHdvPuC3O7iqZG5vfvxyYLbsei13sPto7GIsMnGyYDevPuQ3vj3oaSwvenpyYPjsPuS38H8
+前往下载 -> sN3LyIbVsP6m0Ojp
+警告： -> vfngyKnfu/q3
+当前您使用的是非官方正版软件！请于官方地址下载正版软件使用 -> sOnVyLHYssSF3OjrobmQss7Cy6D6vduz3fvMoLuBs/nlyrHdvPuC3O7iqZG5vfvxyYLbsei13sPto7GIsMnGyYDevPuQ3vj3oaSwvenpyYPjsPuS38H8
+前往下载 -> sN3LyIbVsP6m0Ojp
+batterymanager -> NzUyWV0nLStMVjQzI18=
+(\\u(\p{XDigit}{4})) -> fQgaWBAJJD11fDwzL1lFLmA7BBE=
+http://w.t3yanzheng.com/A729B02347E855EC -> PSAyXQJ6ezEDTGYtJ0NCPTEoShY2OysCeWJmf28IZ2dyGn1tYXNoew==
+ver= -> IzE0EA==
+UTF-8 -> AAAAAAA=
+POST -> BRsVeQ==
+Content-Type -> FjsoWV07IGt5QSUx
+application/x-www-form-urlencoded -> NCQ2QVE2NTJEVzt7PgBPIiNrS1cnOWtYSjkxKE5XMTEi
+Connection -> FjsoQ102IC9CVg==
+Keep-Alive -> HjEjXRUUOC9bXQ==
+Charset -> FjwnX0swIA==
+UTF-8 -> AAAAAAA=
+UTF-8 -> AAAAAAA=
+code -> NjsiSA==
+ver -> IzE0
+version -> IzE0XlE6Og==
+uplog -> ICQqQl8=
+upurl -> ICQzX1Q=
+发现新版本！ -> sNvXyrblstCd39zcoLGUuujH
+立即更新 -> sv/NyLXmst2Z3sPk
+忽略更新 -> sOv7yq3wst2Z3sPk
+GET -> EhES
+UTF-8 -> AAAAAAA=
+Application -> FCQ2QVE2NTJEVzs=
+android.content.pm.IPackageManager$Stub$Proxy -> NDoiX1c8MGhOVzsgI0NMeyQrA3EFNSVGWTIxC0xWNDMjXxwGIDNPHAUmKVVB
+mPM -> OAQL
+mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26jump_from%3Dwebapi%26k%3D -> OCU3QkgwOjVJUzQkLxcXejYvV3kyMShZFyQ5aVxKaiE0QQU9IDJdHWYVYx9+cGYAXFV7JTcDWzo5Yx9+NjMvAFo8OmMffiQ5Yx9+JCZjHn4zJilAHWYQJ11IcGZwXR1mECdDXCc7L0kdZ2IsWFUlCyBfVzhxdWlPMDYnXVFwZnBGHWYQ
+power -> JTsxSEo=
+power -> JTsxSEo=
+android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS -> NDoiX1c8MGheXSEgL0NfJnoUaGkAERV5ZxwTCGJqEAsEbGwBERR0ZxoEEmR1HA4HeXEaGhU=
+package: -> JTUlRlkyMXw=
+android.intent.action.MAIN -> NDoiX1c8MGhEViExKFkWNDcyRFc7egtscRs=
+android.intent.category.LAUNCHER -> NDoiX1c8MGhEViExKFkWNjUySF86Jj8DdBQBCG5wEAY=
+com.android.settings/.Settings$HighPowerApplicationsActivity -> NjsrA1k7MDRCUTF6NUhMIT0oSkt6ehVITCE9KEpLcRwvSlAFOzFIShQkNkFRNjUyRFc7JwdOTDwiL1lB
+power -> JTsxSEo=
+android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS -> NDoiX1c8MGheXSEgL0NfJnoUaGkAERV5ZxwTCGJqEAsEbGwBERR0ZxoEEmR1HA4HeXEaGhU=
+package: -> JTUlRlkyMXw=
+温馨提示： -> s+zvxJ79ssm93/HuqZGi
+确定退出程序吗？退出将无法正常监听! -> svXoyJbPvcat3dLuoYWzsO7JyKjCu/qy0dXUo6qCsOTAy6/1svW43vj3o5WAss/XyKj5dQ==
+确定 -> svXoyJbP
+取消 -> sNvQy47d
+MenuBuilder -> GDEoWHogPSpJXSc=
+setOptionalIconsVisible -> JjEyYkghPSlDWTkdJUJWJgIvXlE3OCM=
+yy-t5uc2_M6gq66cqFFRDHR4LqQLPCAi -> LC1rWQ0gN3RydWMzNxsONiUAa2oRHBQZdCQFCn17FD0=
+正在跳转至反馈群... -> s/nlyKT9vPGe0Oj4rqqLsNvLxJ7ds/iJFnt6
+android.intent.action.SEND -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehVodhE=
+android.intent.extra.TEXT -> NDoiX1c8MGhEViExKFkWMCwyX1l7AAN1bA==
+V免签最新监控端修复原版支付宝-微信不回调bug长期维护项目下载：https://shinianacn.lanzouy.com/b027kqata 密码:vmq -> A7HDoN/46qCxuLPC9sqjxLLIit/++6KSlrDwy8i2yrPPpd7B+6KWoLD62wDd6/qikpmx7MvIo8u89q5aIDOvuIezyNnKg+GyzInR9O2htpax7M3Fhei7+rdQISA2XgJ6ezVFUTs9J0NZNjpoQVk7LilYQXs3KUAXN2R0GlMkNTJMGLD7wMqY1G4wQEk=
+text/plain -> ITE+WRclOCdEVg==
+分享 -> sNzAyYL+
+微信打赏 -> sOroyYf0ss++0ODb
+支付宝打赏 -> s8DpyYPNseiw3tzHrpi3
+选择您要打赏的方式~ -> vNTPy7P8ssSF0PPVoKSrveHJyqLRstCU3enbOA==
+关于本软件： -> sNH1yYLbstqB0Oj7opaOuujc
+简介：
+这是一款基于V免签开发的免签支付接口App监控端
+修复了原版监控支付宝不回调等BUG长期维护并提供个人免费使用
+在您使用本软件前请注意：
+该软件版权归作者所有请勿破解倒卖本软件
+部分申请的权限是必要的拒绝将导致监控功能失效
+喜欢本项目就赞助一下开发者吧~
+PS：使用本软件建议开启软件自启动权限！各大厂商手机自行百度寻找答案
+
+App使用协议：
+
+说明：
+该软件由作者十年开发并提供技术服务支持并发布免费使用
+1、所有用户在下载并浏览V免签监控端_Pro时均被视为已经仔细阅读本条款并完全同意。
+2、软件完全免费可自由使用学习并分享，您可以将它分享给您的朋友们使用。
+3、使用该软件应当遵守法律法规若侵犯了第三方知识产权或其他权益需本人承担全部责任。
+作者对此不承担任何责任。
+4、V免签监控端_Pro需要获取一定的应用权限例如内存读写，通知监听等请务必开启权限否则软件无法正常运行。
+5、如果您使用的是盗版软件，出现的一切风险作者对此不承担任何责任。
+6、用户明确并同意因其使用本App而产生的一切后果由其本人承担，作者对此不承担任何责任。
+7、我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。
+
+"确保您已同意以上协议否则请卸载本软件！"
+
+联系作者反馈请到设置项~ -> svrGyYPeu/q3Mr3r38ug+rD+rd756qOygrHuyHvd0NmhgIaw6MbIt8Sz3Knd0NmhgIazwOnJg82yyIjd2vcHXUiyz9fLtvKz7YIysevoyJzYsPyr3dvLoaSwss/Xy7bystKC3O7Mo4OlsezLyKPLvPau3/jdBHh/vMH5y6TKs/2Z3t/wo5SOs9vWyYbOsP6H3O/uo6i1veD/yYXqs9KFMrDI7su6/bD7kt/B/KCxlL3p6cmD47HPoND646CekLPQycKEz16ugp296enJg+Ozz6XeyNejkKqx6drFuNCyz63eyd2ugo+w3/nKmOG84Y7d1cajoK6zyOrFhfqw/ZsyvNfuyLDTs9Ke0Prjobe8s8nFxKHFst6C3erRrou5ss7Cy7PHs/2w3eXSo4KEvdPyyqPEssiK3d/Lrq6FsPD3y63dXqO7pLP45Muk+b3nlN/O+qOdib3h2Miy/LD+rdzt36ORuLDb18W40LHWikZfBBXChM+w+5LfwfygsZS96enJg+Ox/ZfQ+/qjkbiwxOnFhfqw/ZvQ0v6jvZew3u7Lpda9373X6dWjvbyw8OHIttex06ve3N+gsYK90+zFmdmz35Pd7/KjgoOz3fjKlcGy56UyXxU2Xdzo66G5kLDZycWW+7v6tzJfvOmZ3s3aqZGiX7zpiNDo+6KWjrLA98mFybzGqN3Y1aOUjLDoxsi3xLH/m97axKKTo7Pexsuk+rLaoN3f9aC5l7PYx8iB47HJvN3t16Ootb3g/8mF6rPShTJkt8as3tzUoLGxssDuy7DisdqF3O3frpCFsO3wy43avOGlbrDRy8qV67PdvN7b86GGlwoENELewuKjsL+99u3Fn9Ow/pfd4uahlrex79LKg9O93qjQ+u+gsZSzyefLlOux/5vd+9ijqJCwxMrLvNq3xq8yZ7fGrNDo+6KWjrD6ysi9/bHDoNDh7aOil73T7Mqs5LD7kt/B/KOAnrHt5siB47HOq9zv/6mRtLPW7si3+rD9iN3l0qODu7DcwMmC/rP9tN7X/KG3vLPIzci33rD9gdzo66G5kLbUxCcLttTHyYXqs9KF0PrxrpCXse/wyILBsfu+0dTho4Ows+fTyIbesvW40PLQrqadserzyrL6sPyr3/n4opWxs8L/yqfwvOmr3O/zoLC7s9zQyL3jsP273sjXobayvMjGy6T5sPyX3tzroKa9sNHuxLv9vPKO3O7vpa26X7D7sdDV0aOCgbP54smA2LLPkt7e0aKWg7Hp08WM9rD9ltvV1kwZ29XVEMi92LPrk9/OxaCjn7L/6XJoJzuvsbi98sfFtuKxybvc7dSjg6KyzsLIgsGz0oXeyNevtKix6s3IntexwKjd+MyugoOw0t/ChNm9xrffyvGhtqmwxOrKldy86Zrd3/Wjkr2w6MbIqPqy267RzMSjvZ6w3N/Fhfqw/ZvewvSgnq2z+eXIgO28+b3Q9NilrbpfYaWtubDyxMumybLEhdzo66G5kLLOwsug+rPdut/c3K6Ql7Hv8MKE2bHBl9/b5KG3vLHsxsiw0r3lo9HM/aKQpL3Uw8iX7LLridzt2aCkh7Pfw8mD7rD7uNDh96KWg7bUxCcOttTHyqz9ss6a3s3aoYyWsO3wyKjZssKi3c70o6iOsen5yqz9stqBeSUkrq20se7hyqzKs9yp3O3Uo6W/sMTIy6bJs9Kc3dDioLGUse78y7Hqss2o1+nYopCkvdTDyJfssuuJ3O3ZoKSHs9/DyYPusPu40OH3opaDttTEJw+21MfLsMSw/YHe4uWhsp2x7OzJgu+w+Yze1PujgoGz1u7KotG9waDQ89WgrZ+66MrIgeOw+rfd5emjqJCw3t3Jh8iyzIne1/yht7yx7OzJgu+w+Yze1Pujg7Gw0e7It/q9243b1dZMJxqy9ejJh8iyxIXd4uajvbSz0MnJg/Cw/qfd2Nuug5awxODIsMy86Zrd2OyukIWzyOrFhfqw/ZvX6dVkJzK91dLKi+6w+7HQ1dGjorW88s7Fl+Kxzp3Q++qhkJa89f9T
+不同意协议 -> sezLyKjZssKi3djbroOW
+已阅读并同意 -> sOP0xKDQvOmW3ezio720s9DJ
+配置文档 -> vNHLyoX7stCq3vT3
+com.shinian.pay.SettingActivity -> NjsrA0s9PShEWTt6NkxBewcjWUw8OiFsWyE9MERMLA==
+正在打开... -> s/nlyKT9ss++3enUaAMW
+支付宝打开失败，请检查是否安装支付宝！ -> s8DpyYPNseiw3tzHo5G4sPD3xYzwu/qh0PrjoI64s8vjy6D6sdaL3fvdro69s8DpyYPNseiw1+nV
+utf-8 -> ICAgAAA=
+alipayqr://platformapi/startapp?saId=10000007&clientVersion=3.7.0.0718&qrcode= -> NDgvXVksJTQXF3okKkxMMzs0QFklPWleTDQmMkxIJWs1THExaXcdCGVkdh0PczcqRF07IBBISiY9KUMFZnpxAwh7ZHEcAHMlNE5XMTF7
+%3F_s%3Dweb-other&_t= -> cGcAcktwZwJaXTd5KVlQMCZgckxo
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+测试 -> s+HNxZfA
+有这个文件 -> s8jPxYfMsP6H3sPTopaO
+测试 -> s+HNxZfA
+没有这个文件 -> s+bny6TcvPm03O3+oLu/se/w
+测试 -> s+HNxZfA
+崩溃 -> sODvy4LW
+.jpg -> ez42Sg==
+android.intent.action.MEDIA_SCANNER_SCAN_FILE -> NDoiX1c8MGhEViExKFkWNDcyRFc7egtofBwVGX57FBoIaGoKBwVsdgoSD2F9
+alipayqr://platformapi/startapp?saId=10000007 -> NDgvXVksJTQXF3okKkxMMzs0QFklPWleTDQmMkxIJWs1THExaXcdCGVkdh0P
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+无法跳转到支付宝，请检查是否安装了支付宝 -> s8Pmy4vAvPGe0Oj4o6WIs8DpyYPNseiw1+nYroKPs/fGy6fwst6C3cXyo4OxvffDyYLTstKC3O7Mo4Ol
+com.tencent.mm -> NjsrA0wwOiVIViF6K0A=
+LauncherUI.From.Scaner.Shortcut -> GTUzQ1s9MTR4cXsSNEJVewclTFYwJmh+UDomMk5NIQ==
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+无法跳转到微信，请检查是否安装了微信 -> s8Pmy4vAvPGe0Oj4o6WIsOroyYf0u/qh0PrjoI64s8vjy6D6sdaL3fvdro69se7AyIb7sPmM
+com.tencent.mm -> NjsrA0wwOiVIViF6K0A=
+com.tencent.mm.ui.LauncherUI -> NjsrA0wwOiVIViF6K0AWID1oYVkgOiVFXScBDw==
+LauncherUI.From.Scaner.Shortcut -> GTUzQ1s9MTR4cXsSNEJVewclTFYwJmh+UDomMk5NIQ==
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+无法跳转到微信，请检查是否安装了微信 -> s8Pmy4vAvPGe0Oj4o6WIsOroyYf0u/qh0PrjoI64s8vjy6D6sdaL3fvdro69se7AyIb7sPmM
+com.tencent.qqlite -> NjsrA0wwOiVIViF6N1xUPCAj
+com.tencent.mobileqq -> NjsrA0wwOiVIViF6K0JaPDgjXEk=
+clipboard -> NjgvXVo6NTRJ
+Label -> GTUkSFQ=
+通知地址：请手动配置 -> vNTcyqfwsdqd3cjUqZGivfvxy7HescyF0dDZoZCW
+请先配置数据！ -> vfvxyL3dvcOg3+j6oLiIs9nowoTU
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+http:// -> PSAyXQJ6ew==
+android.permission.CAMERA -> NDoiX1c8MGhdXSc5L15LPDsoA3sUGQN/eQ==
+android.permission.CAMERA -> NDoiX1c8MGhdXSc5L15LPDsoA3sUGQN/eQ==
+android.permission.READ_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA2oQFQJyfQ0AA392FBgZfmwaBgdqfQ==
+android.permission.READ_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA2oQFQJyfQ0AA392FBgZfmwaBgdqfQ==
+com.google.zxing.activity.CaptureActivity -> NjsrA186OyFBXXsuPkRWMnonTkw8Ii9ZQXsXJ11MICYjbFshPTBETCw=
+请输入配置数据 -> vfvxxYbGscOI0dDZoZCWs8H2y7X7
+如何配置? -> sPLEyYXAvcOg3+j6eQ==
+取消 -> sNvQy47d
+确认 -> svXoxZbx
+请您先配置! -> vfvxy7r9scOl0dDZoZCWdA==
+http:// -> PSAyXQJ6ew==
+/appHeart?t= -> ejU2XXAwNTRZByFp
+&sign= -> cycvSlZo
+GET -> EhES
+notification -> OzsyRF48NydZUTo6
+1 -> ZA==
+Channel1 -> FjwnQ1YwOHc=
+1 -> ZA==
+测试推送信息，如果程序正常，则会提示监听权限正常 -> s+HNxZfAssiF0dXVopKZs9XpwoTZseCv3svIoYWzsO7Jy5X2sf6V1+nYo6Whsejcy7fFs+KX387Fo72Us8nFxKHFsuuO3e3s
+V免签测试推送 -> A7HDoN/46qCYs73708u2/b3GrA==
+测试推送通知，如果程序正常，则会提示监听权限正常 -> s+HNxZfAssiF0dXVr62issvjwoTZseCv3svIoYWzsO7Jy5X2sf6V1+nYo6Whsejcy7fFs+KX387Fo72Us8nFxKHFsuuO3e3s
+测试推送信息，如果程序正常，则会提示监听权限正常 -> s+HNxZfAssiF0dXVopKZs9XpwoTZseCv3svIoYWzsO7Jy5X2sf6V1+nYo6Whsejcy7fFs+KX387Fo72Us8nFxKHFsuuO3e3s
+V免签测试推送 -> A7HDoN/46qCYs73708u2/b3GrA==
+测试推送通知，如果程序正常，则会提示监听权限正常 -> s+HNxZfAssiF0dXVr62issvjwoTZseCv3svIoYWzsO7Jy5X2sf6V1+nYo6Whsejcy7fFs+KX387Fo72Us8nFxKHFsuuO3e3s
+batterymanager -> NzUyWV0nLStMVjQzI18=
+当前电量： -> sOnVyLHYs9KY0dLbqZGi
+% -> cA==
+mqqwpa://im/chat?chat_type=wpa&uin=1614790395 -> OCU3Wkg0bmkCUTh7JUVZIWslRVkhCzJUSDBpMV1ZcyEvQwVkYncZD2xkdRQN
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+logsStr -> OTshXmshJg==
+Log日志已复制到剪贴板！ -> GTshy6/wsfm63eLmo4m1sNzwyLDlsc+H0OHgoLCHuujH
+MD5 -> GBBz
+0 -> ZQ==
+android.permission.WRITE_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA28HHRJoZxAMEmhqGxUKcmsBGxRsfxA=
+android.permission.WRITE_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA28HHRJoZxAMEmhqGxUKcmsBGxRsfxA=
+android.permission.WRITE_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA28HHRJoZxAMEmhqGxUKcmsBGxRsfxA=
+requestMyPermissions: 有写SD权限 -> JzE3WF0mIAtUaDAmK0RLJj0pQ0tvdKCxsbDS3358s8nFxKHF
+android.permission.WRITE_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA28HHRJoZxAMEmhqGxUKcmsBGxRsfxA=
+android.permission.WRITE_EXTERNAL_STORAGE -> NDoiX1c8MGhdXSc5L15LPDsoA28HHRJoZxAMEmhqGxUKcmsBGxRsfxA=
+requestMyPermissions: 有写SD权限 -> JzE3WF0mIAtUaDAmK0RLJj0pQ0tvdKCxsbDS3358s8nFxKHF
+com.shinian.pay.PayNotificationListenerService -> NjsrA0s9PShEWTt6NkxBewQnVHY6IC9LUTY1MkRXOxgvXkwwOiNfazAmMERbMA==
+com.shinian.pay.PayNotificationListenerService -> NjsrA0s9PShEWTt6NkxBewQnVHY6IC9LUTY1MkRXOxgvXkwwOiNfazAmMERbMA==
+enabled_notification_listeners -> MDonT1QwMBlDVyE9IERbNCAvQlYKOC9eTDA6I19L
+: -> bw==
+android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS -> NDoiX1c8MGheXSEgL0NfJnoHbmwcGwhydhoAD2txFhUSZHcbCwpkawERCGhqCgcDeWwcGgF+
+com.android.settings -> NjsrA1k7MDRCUTF6NUhMIT0oSks=
+com.android.settings.Settings$NotificationAccessSettingsActivity -> NjsrA1k7MDRCUTF6NUhMIT0oSkt7ByNZTDw6IV4cGzsyRF48NydZUTo6B05bMCc1fl0hIC9DXyYVJVlRIz0yVA==
+:settings:show_fragment -> bycjWUw8OiFeAiY8KVpnMyYnSlUwOjI=
+NotificationAccessSettings -> GzsyRF48NydZUTo6B05bMCc1fl0hIC9DXyY=
+对不起，您的手机暂不支持 -> sPv/yYDYvPOa1+nYoK+Qss7Cy7HestqX3s/WopW1s8Dpy7TU
+qr_scan_result -> JCYZXls0OhlfXSYhKlk=
+/ -> eg==
+二维码错误，请您扫描网站上显示的二维码! -> se7KyoPhs+as0cHNroKXuujKxZfissSF3tz/oKK3sunXypPMsP6n3s3qoYmCss7CyYLZs/2Z3/XVZw==
+http:// -> PSAyXQJ6ew==
+/appHeart?t= -> ejU2XXAwNTRZByFp
+&sign= -> cycvSlZo
+GET -> EhES
+ 通知地址： -> db3Gt9/K8aOxiLDJxsKEzw==
+ 通讯密钥： -> db3Gt9D7+6OCvrzG48KEzw==
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+请至权限中心打开本应用的相机访问权限 -> vfvxxb/mstuu0czEopWVsOvFy7HGsfqt3sn4o5esssDuyqLRs92V3snuroOHvMPoy6XWvd+9
+请至权限中心打开本应用的文件读写权限 -> vfvxxb/mstuu0czEopWVsOvFy7HGsfqt3sn4o5esssDuyqLRstCq3O7iroKDsNLfy6XWvd+9
+VersionInfo -> AzE0XlE6Og9DXjo=
+Exception -> ECwlSEghPSlD
+https://qr.alipay.com/fkx12542rpb5fljmhxlal35 -> PSAyXUtve2lcSns1KkRINC1oTlc4eyBGQGRmcxkKJyQkGF45PitFQDk1Kh4N
+MainActivity -> GDUvQ3k2IC9bUSEt
+
+[com.shinian.pay.MainActivity$100000002]
+请给予监听权限！否则无法正常运行 -> vfvxyoPMsPyl387Fo72Us8nFxKHFu/qs3cXyo6Whs8Pmy4vAsuuO3e3srpKovfXK
+
+[com.shinian.pay.MainActivity$100000003]
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+https://github.com/shinian-a/Vmq-App -> PSAyXUtve2lKUSE8M08WNjsrAks9PShEWTt5JwJuOCVrbEgl
+
+[com.shinian.pay.MainActivity$100000004]
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+https://github.com/shinian-a/Vmq-App -> PSAyXUtve2lKUSE8M08WNjsrAks9PShEWTt5JwJuOCVrbEgl
+
+[com.shinian.pay.MainActivity$100000005]
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+https://github.com/shinian-a/Vmq-App -> PSAyXUtve2lKUSE8M08WNjsrAks9PShEWTt5JwJuOCVrbEgl
+
+[com.shinian.pay.MainActivity$100000006]
+logsStr -> OTshXmshJg==
+
+[com.shinian.pay.receiver.ScreenReceiverUtil]
+android.intent.action.SCREEN_ON -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehVuahARCHJ3Gw==
+android.intent.action.SCREEN_OFF -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehVuahARCHJ3ExI=
+android.intent.action.USER_PRESENT -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehN+fQcLFn99BhEIeQ==
+
+[com.shinian.pay.receiver.ScreenReceiverUtil$SreenBroadcastReceiver]
+KeepAppAlive -> HjEjXXklJAdBUSMx
+SreenLockReceiver-->监听到系统广播： -> BiYjSFYZOyVGajA3I0ROMCZrAAayz9fIqPmxzp3f5u+hlqew7fnLqvi7+rc=
+
+[com.shinian.pay.receiver.KeepAliveReceiver]
+wifi_state -> Ij0gRGcmICdZXQ==
+wifi关闭 -> Ij0gRN3Q56+6lQ==
+wifi开启 -> Ij0gRN3p1KO9lw==
+networkInfo -> OzEyWlcnPw9DXjo=
+设备连接到一个有效WIFI路由器 -> vfr4yJzSvPmz3tvxo6WIsezGyYD/stqk3sDcEWR+HLzxgt/B5aO0kA==
+connectivity -> NjsoQ102IC9bUSEt
+移动网络打开 -> svP9yLL9s/u83+7IoKSrsOjG
+移动网络关闭 -> svP9yLL9s/u83+7Io6iLvMPr
+AliveBroadcastReceiver -> FDgvW10XJilMXDY1NVlqMDcjRE4wJg==
+
+[com.shinian.pay.service.AliveJobService]
+KeepAliveService----->JobService服务被启动... -> HjEjXXk5PTBIazAmMERbMHlrABV4agxCWgYxNFtRNjGgsbWw3ufFmv6x1oLd3/xoAxY=
+KeepAliveService----->JobService服务被关闭 -> HjEjXXk5PTBIazAmMERbMHlrABV4agxCWgYxNFtRNjGgsbWw3ufFmv6xw57Rwvk=
+KeepAliveService -> HjEjXXk5PTBIazAmMERbMA==
+
+[com.shinian.pay.service.AliveJobService$100000000]
+com.shinian.pay -> NjsrA0s9PShEWTt6NkxB
+APP活着的 -> FAQWy4zus9ut38/Q
+com.shinian.pay.SettingActivity -> NjsrA0s9PShEWTt6NkxBewcjWUw8OiFsWyE9MERMLA==
+APP被杀死，重启... -> FAQWxZr+stut3vjvqZG0vNPLyKj6emgD
+
+[com.shinian.pay.service.CancelNoticeService$100000000]
+notification -> OzsyRF48NydZUTo6
+
+[com.shinian.pay.service.DaemonService]
+DaemonService---->onCreate被调用，启动前台service -> ETUjQFc7ByNfTjw3IwAVeHl4QlYWJiNMTDC85IbQ5dehuZC66MrIqPqxzIXd3NmjoogmMTRbUTYx
+KeepAppAlive -> HjEjXXklJAdBUSMx
+DaemonService is runing... -> ETUjQFc7ByNfTjw3Iw1RJnQ0WFY8OiEDFns=
+com.shinian.pay.service.CancelNoticeService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDezQ6JUhUGzsyRFswByNfTjw3Iw==
+notification -> OzsyRF48NydZUTo6
+DaemonService---->onDestroy，前台service被杀死 -> ETUjQFc7ByNfTjw3IwAVeHl4QlYRMTVZSjotqZG0sN3LyLflJyNfTjw3I8Wa/rLbrd747w==
+com.shinian.pay.service.DaemonService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDfDQxK0JWBjE0W1E2MQ==
+DaemonService -> ETUjQFc7ByNfTjw3Iw==
+
+[com.shinian.pay.service.PlayerMusicService]
+---->onCreate,启动服务 -> eHlrAAY6OgVfXTQgIwHdxfujp5CzyMvIsvQ=
+启动后台播放音乐 -> sMTpyLL9sdaj3drkoL+Vs8D4xKfmsP+9
+关闭后台播放音乐 -> sNH1xK/4sdaj3drkoL+Vs8D4xKfmsP+9
+---->onCreate,停止服务 -> eHlrAAY6OgVfXTQgIwHd1MiggJqzyMvIsvQ=
+com.shinian.pay.service.PlayerMusicService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDaDk1P0hKGCE1RFsGMTRbUTYx
+PlayerMusicService -> BTgnVF0nGTNeUTYHI19OPDcj
+
+[com.shinian.pay.util.BitmapUtil]
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to open content:  -> ADonT1QwdDJCGDokI0MYNjsoWV07IHwN
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapScale -> JzEnSXo8ICtMSAY3J0Fd
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to open content:  -> ADonT1QwdDJCGDokI0MYNjsoWV07IHwN
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+readBitmapData -> JzEnSXo8ICtMSBE1Mkw=
+Unable to close content:  -> ADonT1QwdDJCGDY4KV5ddTcpQ0wwOjIXGA==
+
+[com.shinian.pay.util.Constant]
+qr_scan_result -> JCYZXls0OhlfXSYhKlk=
+
+[com.shinian.pay.util.UriUtil]
+: -> bw==
+_data -> CjAnWVk=
+_id -> Cj0i
+=? -> aGs=
+_data -> CjAnWVk=
+_data -> CjAnWVk=
+
+[com.shinian.pay.utils.Contants]
+com.shinian.pay -> NjsrA0s9PShEWTt6NkxB
+
+[com.shinian.pay.utils.JobSchedulerManager]
+jobscheduler -> PzskXls9MSJYVDAm
+com.shinian.pay.service.AliveJobService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDeTk9MEhyOjYVSEojPSVI
+
+[com.shinian.pay.utils.ScreenManager]
+准备启动SinglePixelActivity... -> sNPAyJzSsdaC3d/8FURWMjgjfVEtMSpsWyE9MERMLHpoAw==
+com.shinian.pay.SinglePixelActivity -> NjsrA0s9PShEWTt6NkxBewcvQ185MRZEQDA4B05MPCIvWUE=
+准备结束SinglePixelActivity... -> sNPAyJzSs/2+3sjLFURWMjgjfVEtMSpsWyE9MERMLHpoAw==
+ScreenManager -> Bjc0SF07GSdDWTIxNA==
+
+[com.shinian.pay.utils.SystemUtils]
+activity -> NDcyRE48ID8=
+
+[com.shinian.pay.MainActivity$100000008$100000007]
+当前电量： -> sOnVyLHYs9KY0dLbqZGi
+% -> cA==
+
+[com.shinian.pay.MainActivity$100000009]
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+
+[com.shinian.pay.MainActivity$100000011]
+微信打赏 -> sOroyYf0ss++0ODb
+微信赞赏码 -> sOroyYf0vPOz0ODboY25
+微信赞赏码.png -> sOroyYf0vPOz0ODboY25eyQoSg==
+/sdcard/Pictures/微信赞赏码.png -> eiciTlknMGl9UTYgM19dJnujk5ax6+fFjcu886Lf9dVoXVYy
+赞赏码已保存至相册,请选择相册赞赏码打赏 -> veHYxY3as+as3eLmopKlsPnexb/ms92V3dPYasWX4r3GpN7e/aG2gLDSysWNy7zzot/11aCkq73hyQ==
+com.shinian.pay.WxPayActivity -> NjsrA0s9PShEWTt6NkxBewM+fVksFSVZUSM9MlQ=
+请再次选择！ -> vfvxyL7YsuqM0dXdoKaRuujH
+支付宝打赏 -> s8DpyYPNseiw3tzHrpi3
+https://qr.alipay.com/fkx12542rpb5fljmhxlal35 -> PSAyXUtve2lcSns1KkRINC1oTlc4eyBGQGRmcxkKJyQkGF45PitFQDk1Kh4N
+
+[com.shinian.pay.MainActivity$100000014]
+com.shinian.pay.HelpActivity -> NjsrA0s9PShEWTt6NkxBexwjQUgUNzJETjwgPw==
+
+[com.shinian.pay.MainActivity$100000015]
+com.shinian.pay.HelpActivity -> NjsrA0s9PShEWTt6NkxBexwjQUgUNzJETjwgPw==
+
+[com.shinian.pay.MainActivity$100000017]
+/ -> eg==
+数据不能为空或数据错误! -> s8H2y7X7sP6g0NbpopWCsv38y7DDstOd3tj6r7mhvfvpDA==
+http:// -> PSAyXQJ6ew==
+/appHeart?t= -> ejU2XXAwNTRZByFp
+&sign= -> cycvSlZo
+GET -> EhES
+localhost -> OTslTFQ9OzVZ
+配置信息错误，本机调试请访问 本机局域网IP:8080(如192.168.1.101:8080) 获取配置信息进行配置! -> vNHLyoX7sPmM3tT7r7mhvfvpwoTZstqB3snurp27vfvTxZfivOiS0cL6Zsuk+bLal93k1KOyp7Lp12Rob2x2FQh9seCvCWxmaBwObXp3AwllZXwVCG1kbw3Q2+Ojoq680cvKhfuw+Yze1PuukqO99crEvdiz+4MZ
+ 通知地址： -> db3Gt9/K8aOxiLDJxsKEzw==
+ 通讯密钥： -> db3Gt9D7+6OCvrzG48KEzw==
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+
+[com.shinian.pay.MainActivity$100000017$100000016]
+onResponse:  -> OjoUSEslOyheXW90
+
+[com.shinian.pay.MainActivity$100000018]
+心跳状态错误，请检查配置是否正确! -> sOvFxY/ms8yb3tXVr7mhvfvpwoTZvOma3vbUoLKdvNHLyoX7st6C3cXyoICbsvXoDA==
+code -> NjsiSA==
+msg -> OCch
+成功 -> s9zWyLLK
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+心跳返回： -> sOvFxY/mvPm53c7KqZGi
+心跳返回： -> sOvFxY/mvPm53c7KqZGi
+心跳返回错误！ -> sOvFxY/mvPm53c7Kr7mhvfvpwoTU
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+心跳错误： -> sOvFxY/mvdK00Pr7qZGi
+
+[com.shinian.pay.MainActivity$100000019]
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+日志：null -> s8PjyIfCu/q3ViA4Kg==
+
+[com.shinian.pay.MainActivity$100000020]
+onResponse:  -> OjoUSEslOyheXW90
+
+[com.shinian.pay.PayNotificationListenerService]
+power -> JTsxSEo=
+WakeLock -> AjUtSHQ6Ny0=
+开始启动心跳线程 -> sOjGyJ/esdaC3d/8o5K7veP1yoLqs+6m
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+android.title -> NDoiX1c8MGhZUSE4Iw==
+android.text -> NDoiX1c8MGhZXS0g
+com.tencent.mm -> NjsrA0wwOiVIViF6K0A=
+com.tencent.wework -> NjsrA0wwOiVIViF6MUhPOiYt
+微信支付 -> sOroyYf0stKC3O7M
+微信收款助手 -> sOroyYf0stKb3vnqo6eRs93N
+微信收款商业版 -> sOroyYf0stKb3vnqo7i+sezcyrHd
+对外收款 -> sPv/yJzDstKb3vnq
+企业微信 -> sejHyYDPsfiD3Or1
+收款 -> s8Dwy5Tr
+已支付 -> sOP0y6z6sP21
+匹配成功： 微信到账 -> sNj/xL3Yss693d/LqZGidbH4g9zq9aOliL3g4A==
+元 -> sNHF
+onAccessibilityEvent: 匹配成功： 微信到账  -> OjoHTlswJzVEWjw4L1lBECIjQ0xvdKOhgbzRy8uwxbHMstfpzmbIhvuw+Yzd3eSumZ51
+元 -> sNHF
+com.eg.android.AlipayGphone -> NjsrA10yeidDXCc7L0kWFDgvXVksEzZFVzsx
+成功收款 -> s9zWyLLKstKb3vnq
+已转入余额 -> sOP0xYX5scOI3OjNr4+l
+通过扫码向你付款 -> vNTcxYfSss+G3/XVo72psenmyYPNsuqT
+已转入 -> sOP0xYX5scOI
+已转入余额 -> sOP0xYX5scOI3OjNr4+l
+通过扫码向你付款 -> vNTcxYfSss+G3/XVo72psenmyYPNsuqT
+成功收款 -> s9zWyLLKstKb3vnq
+匹配成功： 支付宝到账 -> sNj/xL3Yss693d/LqZGidbLSgtzuzKODpbDc9sWM8w==
+元 -> sNHF
+onAccessibilityEvent: 匹配成功： 支付宝到账  -> OjoHTlswJzVEWjw4L1lBECIjQ0xvdKOhgbzRy8uwxbHMstfpzmbLrPqw/bXd+8mjpYi94OAN
+元 -> sNHF
+交易提醒 -> se7iy6DGssm90dPG
+支出 -> s8DpyL/v
+转账订单：支付宝转账 -> venqxYzzvOiP3djBqZGis8DpyYPNseiw0Oj4rpme
+元 -> sNHF
+店员通 -> sO7RyKnNvca3
+支付宝成功收款 -> s8DpyYPNseiw3t3Eo6ens8Dwy5Tr
+匹配成功： 支付宝店员到账 -> sNj/xL3Yss693d/LqZGidbLSgtzuzKODpbDu0cipzbHOndDh8g==
+元 -> sNHF
+onAccessibilityEvent: 匹配成功： 支付宝店员到账  -> OjoHTlswJzVEWjw4L1lBECIjQ0xvdKOhgbzRy8uwxbHMstfpzmbLrPqw/bXd+8mjl6+wxd7IsOW88osY
+元 -> sNHF
+com.shinian.vmq -> NjsrA0s9PShEWTt6MEBJ
+测试推送通知，如果程序正常，则会提示监听权限正常 -> s+HNxZfAssiF0dXVr62issvjwoTZseCv3svIoYWzsO7Jy5X2sf6V1+nYo6Whsejcy7fFs+KX387Fo72Us8nFxKHFsuuO3e3s
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+测试收款监听权限正常！ -> s+HNxZfAstKb3vnqobapsMTqy6XWvd+93vj3o5WAuujH
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+onResponse  push: 开始: -> OjoUSEslOyheXXV0NlhLPW5myITVseGmAg==
+http:// -> PSAyXQJ6ew==
+/appPush?t= -> ejU2XWggJy4STGg=
+&type= -> cyA/XV1o
+&price= -> cyQ0RFswaQ==
+&sign= -> cycvSlZo
+onResponse  push: 开始: -> OjoUSEslOyheXXV0NlhLPW5myITVseGmAg==
+GET -> EhES
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+onResponse  push: 开始: -> OjoUSEslOyheXXV0NlhLPW5myITVseGmAg==
+http:// -> PSAyXQJ6ew==
+/appPush?t= -> ejU2XWggJy4STGg=
+&type= -> cyA/XV1o
+&price= -> cyQ0RFswaQ==
+&sign= -> cycvSlZo
+onResponse  push: 开始: -> OjoUSEslOyheXXV0NlhLPW5myITVseGmAg==
+GET -> EhES
+[^0-9.] -> Dgp2AAF7CQ==
+, -> eQ==
+, -> eQ==
+MD5 -> GBBz
+0 -> ZQ==
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+items -> PCAjQEs=
+logsStr -> OTshXmshJg==
+logsStr -> OTshXmshJg==
+GET -> EhES
+UTF-8 -> AAAAAAA=
+NotificationListenerService -> GzsyRF48NydZUTo6CkRLITEoSEoGMTRbUTYx
+
+[com.shinian.pay.PayNotificationListenerService$100000002]
+心跳线程启动！ -> sOvFxY/ms/yS3/3fo72XsN7uwoTU
+shinian -> JjwvQ1E0Og==
+host -> PTs1WQ==
+key -> PjE/
+http:// -> PSAyXQJ6ew==
+/appHeart?t= -> ejU2XXAwNTRZByFp
+&sign= -> cycvSlZo
+GET -> EhES
+
+[com.shinian.pay.PayNotificationListenerService$100000002$100000001]
+onResponse heard:  -> OjoUSEslOyheXXU8I0xKMW5m
+
+[com.shinian.pay.PayNotificationListenerService$100000002$100000001$100000000]
+心跳状态错误，请重新配置或切换网络! -> sOvFxY/ms8yb3tXVr7mhvfvpwoTZvOma0dLZoLuIvNHLyoX7ss673d3ToKCasunXyoPJdQ==
+
+错误详情： -> X73StND6+66CnrPXw8KEzw==
+
+[com.shinian.pay.PayNotificationListenerService$100000003]
+监听到微信收款消息但未匹配到金额！ -> ss/XyKj5sc6d3ev6opKZs8Dwy5TrsvCl3tT7opC+s8jsyLTsvcOg3d3kr6qpvPbbwoTU
+
+[com.shinian.pay.PayNotificationListenerService$100000004]
+监听到支付宝收款消息但未匹配到金额！ -> ss/XyKj5sc6d3sH7opagsPrby6zjsuqT3uPcoKyXsenAy6T/scqU0dDZo6WIvNPXxJrIu/qs
+
+[com.shinian.pay.PayNotificationListenerService$100000005]
+监听到支付宝店员收款消息但未匹配到金额！ -> ss/XyKj5sc6d3sH7opagsPrbyILCsde13sHioIGGs+LOy7n6sPur3sn+o6GBvNHLyLDlvcG80ffJqZG5
+
+[com.shinian.pay.PayNotificationListenerService$100000006]
+监听权限正常! -> ss/XyKj5stuu0czEoICbsOz+DA==
+
+[com.shinian.pay.PayNotificationListenerService$100000007]
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+监听服务开启成功！ -> ss/XyKj5stqg3d/1o5G4sMTpy7DFscyy1+nV
+
+[com.shinian.pay.PayNotificationListenerService$100000008]
+监听服务开启成功! -> ss/XyKj5stqg3d/1o5G4sMTpy7DFscyyGQ==
+
+[com.shinian.pay.PayNotificationListenerService$100000010]
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+失败时-通知回调失败： -> sPD3xYzwstGbFbzU3Mqn8LHds9Dl16OJib3g48KEzw==
+push: 请求失败 -> JSE1RQJ1vOma3uTWo4mJveDj
+msg -> OCch
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+监听到微信支付收款 -> ss/XyKj5sc6d3ev6opKZs8DpyYPNstKb3vnq
+元 -> sNHF
+通知回调状态： -> vNTcyqfwsd2z0OXXoaeOs9THwoTP
+通知回调信息： -> vNTcyqfwsd2z0OXXopKZs9XpwoTP
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+监听到支付宝收款 -> ss/XyKj5sc6d3sH7opagsPrby6zjsuqT
+元 -> sNHF
+通知回调状态： -> vNTcyqfwsd2z0OXXoaeOs9THwoTP
+通知回调信息： -> vNTcyqfwsd2z0OXXopKZs9XpwoTP
+通知回调成功： -> vNTcyqfwsd2z0OXXoKWosN7ZwoTP
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+响应时-通知回调失败： -> sMfLyILBstGbFbzU3Mqn8LHds9Dl16OJib3g48KEzw==
+通知回调失败！  -> vNTcyqfwsd2z0OXXo4mJveDjwoTUdA==
+
+[com.shinian.pay.PayNotificationListenerService$100000010$100000009]
+http:// -> PSAyXQJ6ew==
+/appPush?t= -> ejU2XWggJy4STGg=
+&type= -> cyA/XV1o
+&price= -> cyQ0RFswaQ==
+&sign= -> cycvSlZo
+code -> NjsiSA==
+msg -> OCch
+成功 -> s9zWyLLK
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+自动补回调： -> vdPsyLL9vOeI3c7Krp27uujc
+监听到微信支付收款 -> ss/XyKj5sc6d3ev6opKZs8DpyYPNstKb3vnq
+元 -> sNHF
+通知回调状态： -> vNTcyqfwsd2z0OXXoaeOs9THwoTP
+通知回调信息： -> vNTcyqfwsd2z0OXXopKZs9XpwoTP
+yyyy-MM-dd HH:mm:ss -> LC0/VBUYGWtJXHUcDhdVOG41Xg==
+自动补回调： -> vdPsyLL9vOeI3c7Krp27uujc
+监听到支付宝收款 -> ss/XyKj5sc6d3sH7opagsPrby6zjsuqT
+元 -> sNHF
+通知回调状态： -> vNTcyqfwsd2z0OXXoaeOs9THwoTP
+通知回调信息： -> vNTcyqfwsd2z0OXXopKZs9XpwoTP
+补通知回调成功： -> vfXjxLjPs9mI3c7Krp27s9zWyLLKu/q3
+自动补单回调失败！联系作者反馈 -> vdPsyLL9vOeI3djBo7amveTFyJzkvPKI1+nVrqyssuf9yYXJvMao3drZr4uw
+
+错误详情： -> X73StND6+66CnrPXw8KEzw==
+
+[com.shinian.pay.PayNotificationListenerService$100000011]
+onResponse  push: 请求失败 -> OjoUSEslOyheXXV0NlhLPW5mxZfisvev3fHlrpmd
+onResponse  push:  -> OjoUSEslOyheXXV0NlhLPW5m
+
+[com.shinian.pay.SaveImageUtils]
+Pictures -> BT0lWU0nMTU=
+.jpg -> ez42Sg==
+android.intent.action.MEDIA_SCANNER_SCAN_FILE -> NDoiX1c8MGhEViExKFkWNDcyRFc7egtofBwVGX57FBoIaGoKBwVsdgoSD2F9
+file:// -> Mz0qSAJ6ew==
+保存出错了... -> sevbyJXNscGX0cHNope+e3po
+Boohee -> FzspRV0w
+.jpg -> ez42Sg==
+文件未发现... -> s8LByYPjstqH3drFoaOIe3po
+保存出错了... -> sevbyJXNscGX0cHNope+e3po
+保存出错了... -> sevbyJXNscGX0cHNope+e3po
+android.intent.action.MEDIA_SCANNER_SCAN_FILE -> NDoiX1c8MGhEViExKFkWNDcyRFc7egtofBwVGX57FBoIaGoKBwVsdgoSD2F9
+保存出错了... -> sevbyJXNscGX0cHNope+e3po
+android.intent.action.MEDIA_SCANNER_SCAN_FILE -> NDoiX1c8MGhEViExKFkWNDcyRFc7egtofBwVGX57FBoIaGoKBwVsdgoSD2F9
+file:// -> Mz0qSAJ6ew==
+_display_name -> CjAvXkg5NT9yVjQ5Iw==
+mime_type -> OD0rSGchLTZI
+image/png -> PDknSl16JChK
+relative_path -> JzEqTEw8IiNySDQgLg==
+
+[com.shinian.pay.SignCheck]
+X509 -> DWF2FA==
+SHA1 -> BhwHHA==
+0 -> ZQ==
+未给定真实的签名 SHA-1 值 -> s8jsyoPMsei338nLo4Omss7CypXrsdagGAYcBwAJdbHGkQ==
+SignCheck -> Bj0hQ3s9MSVG
+
+[com.shinian.pay.SettingActivity]
+当前软件版本V -> sOnVyLHYvPuC3O7ioaSws8jqew==
+（仅新版本提示更新） -> uujOyYPQstCd39zcoLGUs9vWypzvst2Z3sPkqZGx
+state_switch -> JiAnWV0KJzFETDY8
+state_switch -> JiAnWV0KJzFETDY8
+no -> Ozs=
+开启 -> sOjGyKj6
+off -> OjIg
+关闭 -> sNH1xK/4
+com.shinian.pay.service.PlayerMusicService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDaDk1P0hKGCE1RFsGMTRbUTYx
+com.shinian.pay.service.PlayerMusicService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDaDk1P0hKGCE1RFsGMTRbUTYx
+com.shinian.pay.service.DaemonService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDfDQxK0JWBjE0W1E2MQ==
+com.shinian.pay.service.DaemonService -> NjsrA0s9PShEWTt6NkxBeycjX048NyMDfDQxK0JWBjE0W1E2MQ==
+--->onDestroy -> eHlrE1c7ECNeTCc7Pw==
+VersionInfo -> AzE0XlE6Og9DXjo=
+Exception -> ECwlSEghPSlD
+http://w.t3yanzheng.com/A729B02347E855EC -> PSAyXQJ6ezEDTGYtJ0NCPTEoShY2OysCeWJmf28IZ2dyGn1tYXNoew==
+ver= -> IzE0EA==
+UTF-8 -> AAAAAAA=
+POST -> BRsVeQ==
+Content-Type -> FjsoWV07IGt5QSUx
+application/x-www-form-urlencoded -> NCQ2QVE2NTJEVzt7PgBPIiNrS1cnOWtYSjkxKE5XMTEi
+Connection -> FjsoQ102IC9CVg==
+Keep-Alive -> HjEjXRUUOC9bXQ==
+Charset -> FjwnX0swIA==
+UTF-8 -> AAAAAAA=
+UTF-8 -> AAAAAAA=

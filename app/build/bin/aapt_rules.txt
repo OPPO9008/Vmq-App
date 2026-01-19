@@ -1,0 +1,167 @@
+# view res/layout/abc_alert_dialog_material.xml #generated:75
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:39
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:18
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/toolbar_main.xml #generated:2
+# view res/layout/toolbar_scanner.xml #generated:2
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.google.zxing.activity.CaptureActivity { <init>(...); }
+
+# view res/layout/activity_scanner.xml #generated:20
+-keep class com.google.zxing.view.ViewfinderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.shinian.pay.FeedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.shinian.pay.ForeService { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.shinian.pay.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.shinian.pay.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.shinian.pay.PayNotificationListenerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.shinian.pay.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.shinian.pay.SinglePixelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.shinian.pay.WxPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.shinian.pay.receiver.KeepAliveReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.shinian.pay.service.AliveJobService { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.shinian.pay.service.CancelNoticeService { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.shinian.pay.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.shinian.pay.service.PlayerMusicService { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:95
+# onClick res/layout/activity_main_xdpi.xml #generated:113
+-keepclassmembers class * { *** Logs(...); }
+
+# onClick res/layout/activity_main.xml #generated:141
+# onClick res/layout/activity_main_xdpi.xml #generated:159
+-keepclassmembers class * { *** author(...); }
+
+# onClick res/layout/activity_main.xml #generated:72
+# onClick res/layout/activity_main_xdpi.xml #generated:87
+-keepclassmembers class * { *** checkPush(...); }
+
+# onClick res/layout/activity_setting.xml #generated:132
+# onClick res/layout/activity_setting_xdpi.xml #generated:132
+-keepclassmembers class * { *** dc_qx(...); }
+
+# onClick res/layout/activity_main.xml #generated:103
+# onClick res/layout/activity_main_xdpi.xml #generated:121
+-keepclassmembers class * { *** dl(...); }
+
+# onClick res/layout/activity_main.xml #generated:48
+# onClick res/layout/activity_main_xdpi.xml #generated:54
+-keepclassmembers class * { *** doInput(...); }
+
+# onClick res/layout/activity_main.xml #generated:60
+# onClick res/layout/activity_main_xdpi.xml #generated:74
+-keepclassmembers class * { *** doStart(...); }
+
+# onClick res/layout/activity_setting.xml #generated:64
+# onClick res/layout/activity_setting_xdpi.xml #generated:64
+-keepclassmembers class * { *** email_fk(...); }
+
+# onClick res/layout/activity_feed.xml #generated:30
+-keepclassmembers class * { *** email_go(...); }
+
+# onClick res/layout/activity_setting.xml #generated:98
+# onClick res/layout/activity_setting_xdpi.xml #generated:98
+-keepclassmembers class * { *** help_api(...); }
+
+# onClick res/layout/activity_setting.xml #generated:158
+# onClick res/layout/activity_setting_xdpi.xml #generated:158
+-keepclassmembers class * { *** service_start(...); }
+
+# onClick res/layout/activity_main.xml #generated:36
+# onClick res/layout/activity_main_xdpi.xml #generated:41
+-keepclassmembers class * { *** startQrCode(...); }
+
+# onClick res/layout/activity_setting.xml #generated:222
+# onClick res/layout/activity_setting_xdpi.xml #generated:222
+-keepclassmembers class * { *** state_swit(...); }
+
+# onClick res/layout/activity_setting.xml #generated:29
+# onClick res/layout/activity_setting_xdpi.xml #generated:29
+-keepclassmembers class * { *** ver_sion(...); }
+
+# onClick res/layout/activity_setting.xml #generated:241
+# onClick res/layout/activity_setting_xdpi.xml #generated:243
+-keepclassmembers class * { *** vmq_Pro_gy(...); }
+
+# onClick res/layout/activity_wxpay.xml #generated:18
+-keepclassmembers class * { *** wxpay_go(...); }
+
