@@ -36,6 +36,13 @@
     <!--相机对焦-->
     <uses-feature android:name="android.hardware.camera.autofocus"/>
         
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:anyDensity="true"
+        android:smallScreens="true">
+    </supports-screens>
+
     <application
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
@@ -46,12 +53,7 @@
         android:theme="@style/AppTheme">
         
 
-        <supports-screens
-            android:largeScreens="true"
-            android:normalScreens="true"
-            android:anyDensity="true"
-            android:smallScreens="true">
-        </supports-screens>
+
 
         <activity android:name=".MainActivity">
 
