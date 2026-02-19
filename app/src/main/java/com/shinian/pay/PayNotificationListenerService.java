@@ -4,6 +4,7 @@ import android.app.Notification;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 import android.text.TextUtils;
@@ -30,6 +31,8 @@ public class PayNotificationListenerService extends NotificationListenerService 
 
     private static final String TAG = "PayNotifyService";
 
+    private static final long HEART_INTERVAL_MS = 60_000L;
+
     private static final Set<String> PAY_PKGS = new HashSet<>(Arrays.asList(
             "com.tencent.mm",
             "com.tencent.wework",
@@ -41,7 +44,24 @@ public class PayNotificationListenerService extends NotificationListenerService 
 
     private final OkHttpClient httpClient = new OkHttpClient();
 
-    // ================== 通知入口 ==================
+    private Thread heartThread;
+    private volatile boolean heartRunning;
+    private PowerManager.WakeLock wakeLock;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        startHeartThread();
+        acquireWakeLock();
+    }
+
+    @Override
+    public void onDestroy() {
+        stopHeartThread();
+        releaseWakeLock();
+        super.onDestroy();
+    }
+
     @Override
     public void onNotificationPosted(StatusBarNotification sbn) {
 
@@ -102,7 +122,6 @@ public class PayNotificationListenerService extends NotificationListenerService 
         pushAsync(2, Double.parseDouble(money));
     }
 
-    // ================== 回调（异步 + 可补偿） ==================
     private void pushAsync(int type, double price) {
         Executors.newSingleThreadExecutor().execute(() -> {
             try {
@@ -139,7 +158,68 @@ public class PayNotificationListenerService extends NotificationListenerService 
         }
     }
 
-    // ================== 工具 ==================
+    private void startHeartThread() {
+        if (heartThread != null && heartThread.isAlive()) return;
+        heartRunning = true;
+        heartThread = new Thread(() -> {
+            while (heartRunning) {
+                try {
+                    sendHeart();
+                } catch (Exception e) {
+                    Log.e(TAG, "心跳错误", e);
+                }
+                try {
+                    Thread.sleep(HEART_INTERVAL_MS);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        });
+        heartThread.setName("PayHeartThread");
+        heartThread.start();
+    }
+
+    private void stopHeartThread() {
+        heartRunning = false;
+        if (heartThread != null) {
+            heartThread.interrupt();
+            heartThread = null;
+        }
+    }
+
+    private void acquireWakeLock() {
+        if (wakeLock != null && wakeLock.isHeld()) return;
+        PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
+        if (powerManager != null) {
+            wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, TAG + ":Heart");
+            wakeLock.setReferenceCounted(false);
+            wakeLock.acquire();
+        }
+    }
+
+    private void releaseWakeLock() {
+        if (wakeLock != null && wakeLock.isHeld()) {
+            wakeLock.release();
+        }
+        wakeLock = null;
+    }
+
+    private void sendHeart() throws Exception {
+        SharedPreferences sp = getSharedPreferences("shinian", MODE_PRIVATE);
+        String host = sp.getString("host", "");
+        String key = sp.getString("key", "");
+        if (TextUtils.isEmpty(host) || TextUtils.isEmpty(key)) return;
+        String t = String.valueOf(System.currentTimeMillis());
+        String sign = md5(t + key);
+        String url = "http://" + host + "/appHeart?t=" + t + "&sign=" + sign;
+        Request req = new Request.Builder().url(url).get().build();
+        try (Response r = httpClient.newCall(req).execute()) {
+            if (!r.isSuccessful()) {
+                throw new IOException("HTTP " + r.code());
+            }
+        }
+    }
+
     private String collectNotificationText(Bundle extras) {
         CharSequence[] lines = extras.getCharSequenceArray(Notification.EXTRA_TEXT_LINES);
         if (lines != null) {
