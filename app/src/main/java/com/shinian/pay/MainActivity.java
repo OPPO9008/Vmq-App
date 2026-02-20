@@ -15,6 +15,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -26,7 +27,6 @@ import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 import android.graphics.Point;
-import android.icu.text.SimpleDateFormat;
 import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Build;
@@ -37,11 +37,11 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.PowerManager;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -74,6 +74,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -178,9 +179,6 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
         sj_dl = (TextView) findViewById(R.id.sj_dl);
 
 
-        //判断签名校验SHA-1 --检测是否重新签名
-        SignCheck signCheck = new SignCheck(this, "0F:85:43:C2:2E:8E:58:1B:96:88:C6:7C:1E:97:1E:0A:1C:55:D2:5F");
-        if (signCheck.check()) {
             //调用App方法检查更新
             try{
             App();
@@ -337,27 +335,6 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
                 txtkey.setText(" 通讯密钥：" + key);
                 isOk = true;
             }
-            //签名错误
-        } else {
-            //TODO 签名错误
-            AlertDialog.Builder qmjy = new AlertDialog.Builder(MainActivity.this);
-            qmjy.setIcon(R.drawable.jg);
-            qmjy.setTitle("警告：");
-            qmjy.setMessage("当前您使用的是非官方正版软件！请于官方地址下载正版软件使用");
-            qmjy.setCancelable(false); //设置是否可以点击对话框外部取消
-            qmjy.setPositiveButton("前往下载", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        //跳转浏览器
-                        Intent intent_d = new Intent();
-                        intent_d.setAction("android.intent.action.VIEW");
-                        Uri content_url = Uri.parse("https://github.com/shinian-a/Vmq-App");
-                        intent_d.setData(content_url);
-                        startActivity(intent_d);
-                    }
-                });
-			qmjy.show();//显示
-        }
 
         //校验是否有去除签名校验hook 
         if (checkApplication()) {
@@ -429,8 +406,23 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
     public int getBatteryCurrent(Context context) {
         int capacity = 0;
         try {
-            BatteryManager manager = (BatteryManager) context.getSystemService(Context.BATTERY_SERVICE);
-            capacity = manager.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);//当前电量剩余百分比
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                BatteryManager manager = (BatteryManager) context.getSystemService(Context.BATTERY_SERVICE);
+                if (manager != null) {
+                    capacity = manager.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
+                    return capacity;
+                }
+            }
+
+            IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+            Intent batteryStatus = context.registerReceiver(null, ifilter);
+            if (batteryStatus != null) {
+                int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+                int scale = batteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
+                if (level >= 0 && scale > 0) {
+                    capacity = Math.round(level * 100f / scale);
+                }
+            }
         } catch (Exception e) {
 
         }
@@ -747,6 +739,9 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
         if (context == null) {
             return false;
         }
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+            return false;
+        }
         boolean isIgnoring = false;
         PowerManager powerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         if (powerManager != null) {
@@ -797,6 +792,9 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
 	//检测电池白名单权限
 	private boolean isIgnoringBatteryOptimizations() {
 
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+            return false;
+        }
 		boolean isIgnoring = false;
 
 		PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
@@ -1186,7 +1184,7 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
             Intent intent = new Intent();
             intent.setComponent(new ComponentName("com.tencent.mm", "com.tencent.mm.ui.LauncherUI"));
             intent.putExtra("LauncherUI.From.Scaner.Shortcut", true);
-            intent.setFlags(335544320);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setAction("android.intent.action.VIEW");
             context.startActivity(intent);
         } catch (Exception e) {
@@ -1455,8 +1453,7 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
     //获取电量onClick
     public void dl(View v) {
         //电量获取
-        BatteryManager manager = (BatteryManager)getSystemService(Context.BATTERY_SERVICE);
-        capacity = manager.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);//当前电量剩余百分比
+        capacity = getBatteryCurrent(MainActivity.this);
         sj_dl.setText("当前电量：" + capacity + "%");   
     }
 

@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
@@ -42,7 +42,7 @@ import com.google.zxing.view.ViewfinderView;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Vector;
-import android.support.v7.app.ActionBar; // 这个可以不用管
+import androidx.appcompat.app.ActionBar;
 
 /**
  * Initial the camera

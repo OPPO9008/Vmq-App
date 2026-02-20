@@ -3,7 +3,6 @@ import android.app.Service;
 import android.os.IBinder;
 import android.content.Intent;
 import android.os.Binder;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -12,7 +11,7 @@ import android.app.NotificationManager;
 import android.os.Build;
 import android.app.NotificationChannel;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.content.Context;
 
 public class ForeService extends Service {
@@ -27,7 +26,11 @@ public class ForeService extends Service {
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         //开始执行
         Intent i = new Intent(this, MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, i, 0);
+        int pendingIntentFlags = PendingIntent.FLAG_UPDATE_CURRENT;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            pendingIntentFlags |= PendingIntent.FLAG_IMMUTABLE;
+        }
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, i, pendingIntentFlags);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel("1", "V免签监控端_Pro核心服务", NotificationManager.IMPORTANCE_DEFAULT);

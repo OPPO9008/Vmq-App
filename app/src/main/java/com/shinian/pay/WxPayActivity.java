@@ -1,5 +1,5 @@
 package com.shinian.pay;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.graphics.Bitmap;
 import android.widget.ImageView;
@@ -9,7 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 import android.content.ComponentName;
-import android.support.v7.app.ActionBar; // 这个可以不用管
+import androidx.appcompat.app.ActionBar;
 
 public class WxPayActivity extends AppCompatActivity {
 
@@ -57,7 +57,7 @@ public class WxPayActivity extends AppCompatActivity {
             Intent intent = new Intent();
             intent.setComponent(new ComponentName("com.tencent.mm", "com.tencent.mm.ui.LauncherUI"));
             intent.putExtra("LauncherUI.From.Scaner.Shortcut", true);
-            intent.setFlags(335544320);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.setAction("android.intent.action.VIEW");
             context.startActivity(intent);
         } catch (Exception e) {

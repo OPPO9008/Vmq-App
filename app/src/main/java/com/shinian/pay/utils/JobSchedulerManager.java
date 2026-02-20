@@ -23,8 +23,10 @@ public class JobSchedulerManager {
     private static Context mContext;
 
     private JobSchedulerManager(Context ctxt){
-        this.mContext = ctxt;
-        mJobScheduler = (JobScheduler)ctxt.getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        this.mContext = ctxt.getApplicationContext();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mJobScheduler = (JobScheduler) ctxt.getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        }
     }
 
     public final static JobSchedulerManager getJobSchedulerInstance(Context ctxt){
@@ -38,6 +40,9 @@ public class JobSchedulerManager {
     public void startJobScheduler(){
         // 如果JobService已经启动或API<21，返回
         if(AliveJobService.isJobServiceAlive() || isBelowLOLLIPOP()){
+            return;
+        }
+        if (mJobScheduler == null) {
             return;
         }
         // 构建JobInfo对象，传递给JobSchedulerService
@@ -57,7 +62,9 @@ public class JobSchedulerManager {
     public void stopJobScheduler(){
         if(isBelowLOLLIPOP())
             return;
-        mJobScheduler.cancelAll();
+        if (mJobScheduler != null) {
+            mJobScheduler.cancelAll();
+        }
     }
 
     private boolean isBelowLOLLIPOP(){

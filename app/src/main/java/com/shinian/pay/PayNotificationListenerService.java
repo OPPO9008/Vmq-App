@@ -7,11 +7,10 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
+import androidx.core.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
-
-import androidx.core.app.NotificationCompat;
 
 import java.io.IOException;
 import java.security.MessageDigest;
@@ -84,6 +83,11 @@ public class PayNotificationListenerService extends NotificationListenerService 
         } else if (pkg.equals("com.eg.android.AlipayGphone")) {
             handleAlipay(title, text);
         }
+    }
+
+    @Override
+    public void onNotificationRemoved(StatusBarNotification sbn) {
+        super.onNotificationRemoved(sbn);
     }
 
     // ================== 微信 ==================

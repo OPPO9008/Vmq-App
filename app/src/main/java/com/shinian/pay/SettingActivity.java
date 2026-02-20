@@ -14,7 +14,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.PowerManager;
 import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
@@ -359,6 +359,9 @@ public class SettingActivity extends AppCompatActivity {
 	//检测电池白名单权限
 	private boolean isIgnoringBatteryOptimizations() {
 
+        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.M) {
+            return false;
+        }
 		boolean isIgnoring = false;
 
 		PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);

@@ -160,7 +160,7 @@
 				android:layout_width="match_parent"
 				android:layout_height="60dp"
 				android:gravity="left|center"
-				android:id="@+id/setservice"
+				android:id="@+id/setservice_keepalive"
 				android:background="@drawable/ripple"
 				android:onClick="service_start">
 
@@ -269,4 +269,3 @@
 	</ScrollView>
 
 </LinearLayout>
-
