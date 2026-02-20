@@ -1404,28 +1404,29 @@ public class MainActivity extends AppCompatActivity implements OnLongClickListen
     //检测监听
     public void checkPush(View v) {
 
-        Notification mNotification;
-        NotificationManager mNotificationManager;
-        mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel("1", "Channel1",
-                                                                  NotificationManager.IMPORTANCE_DEFAULT);
-            channel.enableLights(true);
-            channel.setLightColor(Color.GREEN);
-            channel.setShowBadge(true);
-            mNotificationManager.createNotificationChannel(channel);
-
-            Notification.Builder builder = new Notification.Builder(this, "1");
-
-            mNotification = builder.setSmallIcon(R.drawable.ic_launcher).setTicker("测试推送信息，如果程序正常，则会提示监听权限正常")
-                .setContentTitle("V免签测试推送").setContentText("测试推送通知，如果程序正常，则会提示监听权限正常").build();
-        } else {
-            mNotification = new Notification.Builder(MainActivity.this).setSmallIcon(R.drawable.ic_launcher)
-                .setTicker("测试推送信息，如果程序正常，则会提示监听权限正常").setContentTitle("V免签测试推送")
-                .setContentText("测试推送通知，如果程序正常，则会提示监听权限正常").build();
+        if (!isNotificationListenersEnabled() && !isNLServiceEnabled()) {
+            AlertDialog.Builder qx = new AlertDialog.Builder(MainActivity.this);
+            qx.setIcon(R.drawable.gy);
+            qx.setTitle("温馨提示：");
+            qx.setMessage("当前你未授权收款插件读取通知栏权限，请前往授权后再继续操作");
+            qx.setCancelable(false);
+            qx.setPositiveButton("前往授权", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        gotoNotificationAccessSetting();
+                    }
+                });
+            qx.setNeutralButton("暂不授权", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(getApplication(), "请给予监听权限！否则无法正常运行", Toast.LENGTH_LONG).show();
+                    }
+                });
+            qx.show();
+            return;
         }
-        mNotificationManager.notify(id++, mNotification);
+
+        Toast.makeText(this, "监听权限正常", Toast.LENGTH_SHORT).show();
     }
     //清除所有日志
     public void Logs(View v) {
